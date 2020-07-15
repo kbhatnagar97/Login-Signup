@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mainAssignment</string>
+    <string name="LoginTitle">NGO Donator</string>
+    <string name="Login">Login</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Skip">Skip</string>
+    <string name="Name">NAME</string>
+    <string name="Name_hint">Name</string>
+    <string name="Email">EMAIL ADDRESS / PHONE NUMBER</string>
+    <string name="Email_hint">eg: example@gmail.com or +91 7550169360</string>
+    <string name="verify">VERIFY EMAIL/PHONE</string>
+    <string name="Gender">Gender</string>
+    <string name="password">PASSWORD</string>
+    <string name="password_hint">Password</string>
+    <string name="Confirm_password">CONFIRM PASSWORD</string>
+    <string name="Confirm_password_hint">Repeat Password</string>
+    <string name="already">Already have an account? Login</string>
+    <string name="not_member_sign_up">Not a member yet? Sign up now</string>
+</resources>

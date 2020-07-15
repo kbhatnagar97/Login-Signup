@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hashedin.mainassignment.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/Theme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/LoginTitle"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="340sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:layout_width="300sp"
+        android:layout_height="35sp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:text="@string/Login" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300sp"
+        android:layout_height="35sp"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:text="@string/SignUp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:textColor="@color/grey"
+        android:textSize="10sp"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="@string/Skip" />
+
+</LinearLayout>
